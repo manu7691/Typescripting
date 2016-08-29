@@ -10,5 +10,8 @@ exports.config = {
         compiler: "ts:ts-node/register",
         // Ignore features or scenarios pending to do
         tags: '~@todo'
+    },
+    capabilities: {
+        'browserName': 'chrome'
     }
 };
