@@ -59,8 +59,8 @@ class SearchPageSteps {
 
     @then(/^I choose flight dates$/)
     public ThenChooseFlightDates (callback: Callback): void {
-        SearchPageSteps.searchPage.setDepartureDate("03", "09", "2016");
-        SearchPageSteps.searchPage.setReturnDate("17", "09", "2016");
+        SearchPageSteps.searchPage.setDepartureDate("10", "09", "2016");
+        SearchPageSteps.searchPage.setReturnDate("24", "09", "2016");
 
         callback();
     }
