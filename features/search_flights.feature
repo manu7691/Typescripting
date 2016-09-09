@@ -32,7 +32,7 @@ Feature: Search Flight feature
     Examples:
 
     | origin  | destination | departure-date | return-date |
-    | Madrid | Dublin      | 03-09-2016     | 17-09-2016  |
+    | Madrid | Dublin      | 16-09-2016     | 30-09-2016  |
 
   @todo
   Scenario: Buying Return flights with payment included
